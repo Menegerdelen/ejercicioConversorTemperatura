@@ -1,7 +1,7 @@
 
 
 // mostrar resultado y valiudando
-const resultadoTemperaturas = (  ) => {
+const resultadoTemperaturas = () => {
 
     // guardar los datos ingresadfos por el usuario
     const datosCelcius = document.getElementById('datosCelsius').value;
@@ -25,7 +25,7 @@ const resultadoTemperaturas = (  ) => {
     const  fGrados = ( 1.8 * cGrados ) + 32
 
     // mensaje del  resultado
-    const resultado = `Los C° ingresados son: ${cGrados}, equivalen a K°: ${kGrados.toFixed(2)}, y a F°: ${fGrados.toFixed(2)}.`
+    const resultado = `Los °C ingresados son: ${cGrados}, equivalen a K: ${kGrados.toFixed(2)}, y a °F: ${fGrados.toFixed(2)}.`
     
     // mostrar elr esultado en el html
     mostrarResultado.innerHTML = resultado;
