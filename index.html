@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <title>Conversor de Temperatura</title>
+</head>
+<body class="bg-dark text-light">
+    
+<section class="m-5">
+    <div id="formulario" class="container">
+        <div class="text-center my-5">
+            <h1>Convertidor de Temperatura</h1>
+        </div>
+        <form>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="mb-3">
+                        <label for="datosCelsius" class="form-label">Ingrese los C°: </label>
+                        <input type="text" class="form-control" id="datosCelsius" placeholder="Ingrese los C°: (Ej: 32)">
+                    </div>
+                    <button type="button" id="calcular" class="btn btn-primary">Calcular</button>
+                </div>
+            </div>
+        </form>
+
+
+        <div id="mostrarResultado" class="text-center my-5"></div>
+    </div>
+</section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
